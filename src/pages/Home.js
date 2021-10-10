@@ -67,8 +67,8 @@ const Home = () => {
                 <table className="table">
                     <tr>
                         <th>Name</th>
-                        <th>Mobile</th>
                         <th>Phone</th>
+                        <th>Email</th>
                         <th>Action</th>
                     </tr>
                     {myContactsList.map(items =>
